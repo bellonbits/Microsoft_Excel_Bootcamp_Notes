@@ -1,7 +1,7 @@
 # Microsoft Excel Bootcamp
 ### 4-Day Intensive Training Program
 
-**Trainer:** Ezekiel Aleke
+**Trainer:** Peter Gatitu
 **Platform:** gatituportfolio.netlify.app | @gatitu_mwangi
 
 ---
