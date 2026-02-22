@@ -75,6 +75,41 @@ Formulas always start with an **equals sign (=)**.
 =AVERAGE(A1:A10)
 ```
 
+## Day 1 Assignment — Excel Foundations & Data Management
+
+### Task 1: Setting Up Your Workbook
+Create a new Excel workbook and set up a worksheet called **"Student Records"** with the following columns:
+
+- Student ID
+- First Name
+- Last Name
+- Age
+- City
+- Score
+
+Enter at least **15 rows** of data manually (you may use fictional names and values).
+
+### Task 2: Sorting
+1. Sort the data **alphabetically by Last Name** (A to Z)
+2. Then sort by **Score from highest to lowest**
+3. Finally, do a **Custom Sort** — sort first by City (A to Z), then by Score (largest to smallest)
+
+### Task 3: Filtering
+1. Filter the list to show only students from **one specific city**
+2. Filter the Score column to show only students who scored **above 60**
+3. Use a date filter (add a **Date Enrolled** column) to show students who enrolled in a specific month
+
+### Task 4: Basic Formulas
+Using your Student Records data, calculate the following in an empty area of the sheet:
+
+- Total of all scores
+- Average score
+- Highest score
+- Lowest score
+- Count of how many students are in the list
+
+---
+
 **Example 2 — Total sales for a specific product:**
 ```excel
 =SUMIF(B:B,"Product A",C:C)
