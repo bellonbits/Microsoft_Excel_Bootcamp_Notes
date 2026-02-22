@@ -489,3 +489,42 @@ Removes all **leading and trailing spaces** from a text string.
 *(drag down to apply to the full column)*
 
 ---
+
+## Day 2 Assignment — Excel Functions
+
+### Task 1: Calculation Functions
+Create a new sheet called **"Sales Data"** with columns: Product, Region, Units Sold, Unit Price, Total Sales. Enter at least 20 rows of data.
+
+Use the following functions to analyse the data:
+
+1. `=SUM()` — Total units sold across all products
+2. `=AVERAGE()` — Average unit price
+3. `=MAX()` — Highest total sales value
+4. `=MIN()` — Lowest total sales value
+5. `=COUNT()` — How many sales records exist
+6. `=SUMIF()` — Total sales for one specific product
+7. `=COUNTIF()` — How many times a specific region appears
+8. `=AVERAGEIF()` — Average sales for one specific region
+9. `=SUMIFS()` — Total sales for a specific product in a specific region
+10. `=COUNTIFS()` — Count records where units sold > 50 AND region = "East"
+
+### Task 2: Text Functions
+Create a sheet called **"Employees"** with columns: First Name, Last Name, Email, Department, Job Title.
+
+1. Use `=CONCATENATE()` or `&` to combine First Name and Last Name into a Full Name column
+2. Use `=LEFT()` to extract the first 3 letters of each employee's last name
+3. Use `=RIGHT()` to extract the last 4 digits of a phone number column you add
+4. Use `=UPPER()` to convert all job titles to uppercase
+5. Use `=LOWER()` to convert all email addresses to lowercase
+6. Use `=PROPER()` to convert department names to proper case
+7. Use `=TRIM()` to clean up a column where you have intentionally added extra spaces
+
+### Task 3: Lookup Functions
+Using your Sales Data sheet:
+
+1. Create a small **Product Price List** table on a separate area (Product Name, Price)
+2. Use `=VLOOKUP()` to pull the price of a product based on its name
+3. Use `=XLOOKUP()` to do the same lookup and compare the results
+4. Use `=XLOOKUP()` to return a value that says **"Not Found"** when the product does not exist in the list
+
+---
