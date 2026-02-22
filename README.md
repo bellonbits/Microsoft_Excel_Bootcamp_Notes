@@ -2,6 +2,7 @@
 ### 4-Day Intensive Training Program
 
 **Trainer:** Peter Gatitu
+
 **Platform:** gatituportfolio.netlify.app | @gatitu_mwangi
 
 ---
