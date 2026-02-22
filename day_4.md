@@ -173,3 +173,49 @@ Select range → Right-click → **Format Cells** → **Number** → **OK**
 | ISBLANK | `=ISBLANK(A1)` | Check if cell is empty |
 
 ---
+
+## Day 4 Assignment — Charts, PivotTables & Data Cleaning
+
+### Task 1: Creating Charts
+Using your Sales Data:
+
+1. Create a **Column Chart** showing Total Sales by Product
+2. Create a **Pie Chart** showing the percentage of sales by Region
+3. Create a **Line Chart** — add a Month column to your data and show sales trends over time
+4. For each chart:
+   - Add a chart title
+   - Add axis labels
+   - Change the chart colour scheme
+   - Add data labels
+
+### Task 2: Sparklines and Data Bars
+1. Add a **Sparkline** (line type) to summarise each product's monthly sales trend in a single cell
+2. Apply **Data Bars** to the Total Sales column to show relative performance visually
+
+### Task 3: PivotTables and PivotCharts
+Using your Sales Data:
+
+1. Create a **PivotTable** that shows:
+   - Total Sales by Product (rows) and Region (columns)
+2. Add a **filter** to the PivotTable for Month
+3. Change the value field to show **Average** instead of Sum
+4. Create a **PivotChart** from your PivotTable (use a bar chart)
+5. Add a slicer to make filtering interactive
+
+### Task 4: What-If Analysis
+1. Set up a simple profit model with: Revenue, Cost, and Profit (Revenue minus Cost)
+2. Use **Goal Seek** to find what Revenue is needed to achieve a profit of $10,000
+3. Create a **Data Table** showing how profit changes as revenue increases from $5,000 to $50,000 in steps of $5,000
+4. Use **Scenario Manager** to create three scenarios: Best Case, Base Case, and Worst Case — each with different revenue and cost values
+
+### Task 5: Data Cleaning
+Download or create a messy dataset with the following issues intentionally built in:
+
+1. Duplicate rows — use **Remove Duplicates** to clean them
+2. Blank rows — use **Go To Special** to find and delete them
+3. Inconsistent text case (e.g. "NAIROBI", "nairobi", "Nairobi") — use `=PROPER()` to standardise
+4. Extra spaces in names — use `=TRIM()` to clean them
+5. Numbers stored as text — convert them to actual numbers
+6. Missing values — use `=IF(ISBLANK(A2), "Unknown", A2)` to fill them with a default value
+
+---
