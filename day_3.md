@@ -138,3 +138,43 @@ Sets **rules or constraints** on data entered into a cell to ensure accuracy.
 4. To filter by product: click the drop-down on **Product** → select desired products
 
 ---
+
+## Day 3 Assignment — Logic, Formatting & Tables
+
+### Task 1: IF, IFS and SWITCH
+Using your Student Records sheet:
+
+1. Use `=IF()` to add a **"Pass/Fail"** column — students with a score of 50 or above Pass, others Fail
+2. Use `=IF()` with a nested IF to add a **"Grade"** column:
+   - 80 and above = A
+   - 65–79 = B
+   - 50–64 = C
+   - Below 50 = F
+3. Rewrite the Grade formula using `=IFS()`
+4. Create a new column called **"Performance"** and use `=SWITCH()` to label grades as: A = "Excellent", B = "Good", C = "Average", F = "Poor"
+
+### Task 2: Conditional Formatting
+Using your Student Records sheet:
+
+1. Highlight all **"Fail"** scores in red
+2. Highlight all **"A" grades** in green
+3. Apply a **Color Scale** to the Score column to create a heat map effect
+4. Use **Top/Bottom Rules** to highlight the top 5 scores
+
+### Task 3: Data Validation
+Create a new sheet called **"Registration Form"** and apply the following validation rules:
+
+1. Age column — only allow whole numbers between **16 and 60**
+2. Score column — only allow decimals between **0 and 100**
+3. Department column — create a **drop-down list** with options: Sales, Marketing, Finance, HR, IT
+4. Date column — only allow dates within the **current year**
+5. Add a custom **error message** for each validation rule
+
+### Task 4: Excel Tables
+1. Convert your Sales Data into a proper **Excel Table**
+2. Sort the table by Total Sales (largest to smallest)
+3. Filter the table to show only one region
+4. Add a **Total Row** to the table and calculate the sum of Total Sales
+5. Apply a table style of your choice
+
+---
