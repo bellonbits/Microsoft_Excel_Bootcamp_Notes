@@ -92,4 +92,4 @@ By completing this bootcamp, participants will be able to:
 
 ---
 
-*For more resources and training materials, visit **dataanalysismadeeasy.com***
+*For more resources and training materials, visit **[dataanalysismadeeasy.com](https://gatituportfolio.netlify.app/)***
