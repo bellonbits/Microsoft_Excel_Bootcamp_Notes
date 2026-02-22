@@ -2,7 +2,7 @@
 ### 4-Day Intensive Training Program
 
 **Trainer:** Ezekiel Aleke
-**Platform:** dataanalysismadeeasy.com | @ezekiel_aleke
+**Platform:** gatituportfolio.netlify.app | @gatitu_mwangi
 
 ---
 
